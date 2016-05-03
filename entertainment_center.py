@@ -1,21 +1,23 @@
 import media
 import fresh_tomatoes
 
-toy_story = media.Movie("Roaring Currents", "Based on the true story of the greatest naval battle in history",
+"""Create 6 movie instances and called fresh_tomatoes.open_movies_page(movies)"""
+
+roaring_currents = media.Movie("Roaring Currents", "Based on the true story of the greatest naval battle in history",
                   "https://upload.wikimedia.org/wikipedia/en/3/3a/Battle_of_Myeongryang_poster.jpg",
                   "https://www.youtube.com/watch?v=VfYO-t5e40s")
 
-avatar = media.Movie("Avatar", "A marine on an alien planet",
-                "https://upload.wikimedia.org/wikipedia/en/b/b0/Avatar-Teaser-Poster.jpg",
-                "https://www.youtube.com/watch?v=5PSNL1qE6VY")
+captain_america_cw = media.Movie("Captain America", "Marvel Comics crossover storyline",
+                "https://upload.wikimedia.org/wikipedia/en/5/53/Captain_America_Civil_War_poster.jpg",
+                "https://www.youtube.com/watch?v=dKrVegVI0Us")
 
-school_of_rock = media.Movie("School Of Rock", "Storyline",
-                "https://upload.wikimedia.org/wikipedia/en/1/11/School_of_Rock_Poster.jpg",
-                "https://www.youtube.com/watch?v=3PsUJFEBC74")
+masquerade = media.Movie("Masquerade", "The Man Who Became King",
+                "https://upload.wikimedia.org/wikipedia/en/8/85/Gwanghae.jpg",
+                "https://www.youtube.com/watch?v=1TnfM5XWOtI")
 
-ratatouille = media.Movie("Ratatouille", "Storyline",
-                "https://upload.wikimedia.org/wikipedia/en/5/50/RatatouillePoster.jpg",
-                "https://www.youtube.com/watch?v=c3sBBRxDAqk")
+starwars = media.Movie("Star Wars", "Star Wars begins again",
+                "https://upload.wikimedia.org/wikipedia/en/a/a2/Star_Wars_The_Force_Awakens_Theatrical_Poster.jpg",
+                "https://www.youtube.com/watch?v=sGbxmsDFVnE")
 
 midnight_in_paris = media.Movie("Midnight In Paris", "Storyline",
                 "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
@@ -25,5 +27,5 @@ hunger_games = media.Movie("Hunger Games", "Storyline",
                 "https://upload.wikimedia.org/wikipedia/en/4/4b/Hunger_Games_Film_Poster.jpg",
                 "https://www.youtube.com/watch?v=mfmrPu43DF8")
 
-movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris, hunger_games]
+movies = [roaring_currents, captain_america_cw, masquerade, starwars, midnight_in_paris, hunger_games]
 fresh_tomatoes.open_movies_page(movies)
