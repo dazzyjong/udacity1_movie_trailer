@@ -1,5 +1,3 @@
-__author__ = 'kmcinti2'
-
 import media
 import fresh_tomatoes
 
